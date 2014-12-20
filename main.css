@@ -1,0 +1,1190 @@
+/*317px*/
+/* line 43, C:/Users/Karl/Documents/PixArt/grid */
+body {
+  width: 100%;
+  *zoom: 1; }
+  /* line 29, C:/Users/Karl/Documents/PixArt/grid */
+  body:before, body:after {
+    content: "";
+    display: table; }
+  /* line 33, C:/Users/Karl/Documents/PixArt/grid */
+  body:after {
+    clear: both; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, C:/Users/Karl/Documents/PixArt/normalize */
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 18, C:/Users/Karl/Documents/PixArt/normalize */
+body {
+  margin: 0;
+  font-size: 100%; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, C:/Users/Karl/Documents/PixArt/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, C:/Users/Karl/Documents/PixArt/normalize */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, C:/Users/Karl/Documents/PixArt/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, C:/Users/Karl/Documents/PixArt/normalize */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, C:/Users/Karl/Documents/PixArt/normalize */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, C:/Users/Karl/Documents/PixArt/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, C:/Users/Karl/Documents/PixArt/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, C:/Users/Karl/Documents/PixArt/normalize */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, C:/Users/Karl/Documents/PixArt/normalize */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, C:/Users/Karl/Documents/PixArt/normalize */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, C:/Users/Karl/Documents/PixArt/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, C:/Users/Karl/Documents/PixArt/normalize */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, C:/Users/Karl/Documents/PixArt/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, C:/Users/Karl/Documents/PixArt/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 173, C:/Users/Karl/Documents/PixArt/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, C:/Users/Karl/Documents/PixArt/normalize */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, C:/Users/Karl/Documents/PixArt/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, C:/Users/Karl/Documents/PixArt/normalize */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, C:/Users/Karl/Documents/PixArt/normalize */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, C:/Users/Karl/Documents/PixArt/normalize */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, C:/Users/Karl/Documents/PixArt/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, C:/Users/Karl/Documents/PixArt/normalize */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, C:/Users/Karl/Documents/PixArt/normalize */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, C:/Users/Karl/Documents/PixArt/normalize */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, C:/Users/Karl/Documents/PixArt/normalize */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, C:/Users/Karl/Documents/PixArt/normalize */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, C:/Users/Karl/Documents/PixArt/normalize */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, C:/Users/Karl/Documents/PixArt/normalize */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, C:/Users/Karl/Documents/PixArt/normalize */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, C:/Users/Karl/Documents/PixArt/normalize */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, C:/Users/Karl/Documents/PixArt/normalize */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, C:/Users/Karl/Documents/PixArt/normalize */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, C:/Users/Karl/Documents/PixArt/normalize */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, C:/Users/Karl/Documents/PixArt/normalize */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, C:/Users/Karl/Documents/PixArt/normalize */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, C:/Users/Karl/Documents/PixArt/normalize */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, C:/Users/Karl/Documents/PixArt/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, C:/Users/Karl/Documents/PixArt/normalize */
+td, th {
+  padding: 0; }
+
+/* line 29, C:/Users/Karl/Documents/PixArt/main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*FlexEmbed*/
+/* line 36, C:/Users/Karl/Documents/PixArt/main.scss */
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative; }
+
+/* line 41, C:/Users/Karl/Documents/PixArt/main.scss */
+.FlexEmbed:before {
+  content: "";
+  display: block;
+  width: 100%; }
+
+/* line 46, C:/Users/Karl/Documents/PixArt/main.scss */
+.FlexEmbed--2by1:before {
+  padding-bottom: 100%; }
+
+/* line 49, C:/Users/Karl/Documents/PixArt/main.scss */
+.FlexEmbed--1by1:before {
+  padding-bottom: 50%; }
+
+/* line 53, C:/Users/Karl/Documents/PixArt/main.scss */
+body {
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 58, C:/Users/Karl/Documents/PixArt/main.scss */
+.wrap {
+  margin: auto;
+  max-width: 1500px;
+  width: 100%; }
+
+/* line 63, C:/Users/Karl/Documents/PixArt/main.scss */
+header {
+  height: 84px;
+  position: relative; }
+
+/* line 66, C:/Users/Karl/Documents/PixArt/main.scss */
+.header {
+  height: 84px;
+  position: relative; }
+
+/* line 71, C:/Users/Karl/Documents/PixArt/main.scss */
+.logo {
+  background: url(images/LOGO.png) no-repeat center center;
+  display: inline-block;
+  width: 195px;
+  /*10.72607260726073%*/
+  background-size: contain;
+  height: 64.28571%;
+  /*54px / 84px*/
+  margin: 10px 0 0 1.32013%;
+  /*24px / 1818px*/
+  float: left; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .logo {
+      width: 20%;
+      min-width: 110px;
+      margin: 0; } }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .logo {
+      min-width: 90px;
+      height: 50px;
+      background: url(images/logo-phone.png) no-repeat center center;
+      margin: 0; } }
+
+/* line 93, C:/Users/Karl/Documents/PixArt/main.scss */
+.menu {
+  text-align: center;
+  padding-top: 36px; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .menu {
+      padding: 58px 0 0 3%; } }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .menu {
+      font-size: 0.8em; } }
+
+/* line 106, C:/Users/Karl/Documents/PixArt/main.scss */
+.menu_item {
+  margin-right: 1.08475%;
+  color: #332f2f;
+  font-size: 0.75em;
+  /*14px / 16px*/
+  text-decoration: none; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .menu_item {
+      font-size: 0.5em;
+      padding-left: auto; } }
+
+/* line 117, C:/Users/Karl/Documents/PixArt/main.scss */
+.basket {
+  float: right;
+  display: inline-block;
+  background: #e4e3e3; }
+
+/* line 123, C:/Users/Karl/Documents/PixArt/main.scss */
+.basket_sum {
+  color: #332f2f;
+  text-align: right;
+  font-size: 0.5625em;
+  /*9px / 16px*/
+  padding: 21px 23px 15px 18px; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .basket_sum {
+      padding: 5% 0 0 0;
+      font-size: 0.5em; } }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .basket_sum {
+      padding: 21px 1px 15px 1px; } }
+  /* line 137, C:/Users/Karl/Documents/PixArt/main.scss */
+  .basket_sum span {
+    color: #999999;
+    font-size: 1.1em; }
+    @media only screen and (min-width: 240px) and (max-width: 480px) {
+      .basket_sum span {
+        display: none; } }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      .basket_sum span {
+        display: none; } }
+  /* line 150, C:/Users/Karl/Documents/PixArt/main.scss */
+  .basket_sum b {
+    font-size: 1.55556em;
+    /*14px / 9px*/
+    color: #229cd4; }
+  /* line 159, C:/Users/Karl/Documents/PixArt/main.scss */
+  .basket_sum pre {
+    font-family: "Press Start 2P";
+    margin: 0 0 10px 0; }
+
+/* line 165, C:/Users/Karl/Documents/PixArt/main.scss */
+.row {
+  background: url(images/Ellipse-3-copy.png) no-repeat center center;
+  display: inline-block;
+  height: 440px;
+  width: 100%;
+  background-size: cover;
+  position: relative; }
+  /* line 173, C:/Users/Karl/Documents/PixArt/main.scss */
+  .row a {
+    color: #ffffff;
+    font-size: 0.875em;
+    /*14px / 16px*/
+    text-decoration: none; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row {
+      background: url(images/Ellipse-Tablet980.png) no-repeat center center; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row {
+      background: url(images/Ellipse-Phone480.png); } }
+
+/* line 189, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_stud_butt {
+  background-color: #ff4911;
+  height: 31px;
+  border: none;
+  position: absolute;
+  left: 315px;
+  box-shadow: 0 2px #b9360d;
+  padding: 9px 10px 9px 10px;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_stud_butt {
+      position: static;
+      float: left; } }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_stud_butt {
+      position: static;
+      float: left; } }
+
+/* line 209, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_stud_make {
+  width: 213px;
+  height: 48px;
+  background: url(images/MergedLayers3.png) no-repeat;
+  float: right;
+  position: absolute;
+  left: 500px;
+  top: 60px;
+  background-size: contain; }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_stud_make {
+      position: static;
+      float: left;
+      margin: 40px 0 0 -53px;
+      width: 60.375%; } }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_stud_make {
+      position: static;
+      float: left;
+      margin-top: 40px;
+      width: 60.375%; } }
+
+/* line 234, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_stud {
+  width: 960px;
+  height: 91px;
+  position: relative;
+  margin: 0 auto; }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_stud {
+      font-size: 0.6em;
+      width: 100%; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_stud {
+      font-size: 0.7em; } }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_stud {
+      width: 100%; } }
+
+/* line 254, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_botton {
+  width: 960px;
+  height: 140px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 170px; }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_botton {
+      width: 100%; } }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_botton {
+      width: 100%; } }
+
+/* line 269, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_botton_make {
+  width: 185px;
+  height: 138px;
+  background: url(images/advtime.png) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  left: 295px;
+  background-size: contain; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_botton_make {
+      position: static;
+      float: left; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_botton_make {
+      margin-top: 30px;
+      min-width: 132px;
+      width: 30.54167%; } }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_botton_make {
+      margin-top: 58px;
+      min-width: 90px; } }
+
+/* line 295, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_botton_txt {
+  width: 195px;
+  height: 110px;
+  background: url(images/MergedLayers2.png) no-repeat;
+  display: inline-block;
+  position: absolute;
+  left: 70px;
+  background-size: contain; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_botton_txt {
+      position: static;
+      float: left;
+      margin: 1%;
+      width: 30.375%;
+      min-width: 160px; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_botton_txt {
+      min-width: 140px;
+      width: 44.375%;
+      margin: 0; } }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_botton_txt {
+      min-width: 120px; } }
+
+/* line 322, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_button_left {
+  height: 31px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  background-color: #ff4911;
+  border: 0px;
+  box-shadow: 0 2px #b9360d;
+  padding: 9px 10px 9px 10px;
+  text-transform: uppercase; }
+  /* line 333, C:/Users/Karl/Documents/PixArt/main.scss */
+  .row_button_left a {
+    font-size: 0.875em;
+    /*14px / 16px*/ }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_button_left {
+      font-size: 0.6em; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_button_left {
+      font-size: 0.7em; } }
+
+/* line 344, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two {
+  background: url(images/backgrounds6.png);
+  width: 100%;
+  height: 457px;
+  margin-top: -100px;
+  display: inline-block; }
+
+/* line 352, C:/Users/Karl/Documents/PixArt/main.scss */
+.busket_sum_ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 358, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_a {
+  background: url(images/MergedLayers20.png) no-repeat;
+  height: 48px;
+  width: 284px;
+  margin: 140px auto; }
+
+/* line 365, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_two {
+  position: relative;
+  width: 960px;
+  margin: -100px auto; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_two {
+      width: 90%;
+      font-size: 0.5em; } }
+
+/* line 375, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_android {
+  width: 231px;
+  height: 165px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_android {
+      width: 20%;
+      left: 4%; } }
+
+/* line 387, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_c {
+  background: url(images/Rectangle-5-copy-31.png) no-repeat;
+  width: 99px;
+  height: 99px;
+  margin: 20px auto; }
+
+/* line 395, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_d {
+  background: url(images/MergedLayers4.png) no-repeat;
+  width: 33px;
+  height: 38px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_d {
+      margin: 0 -20px auto; } }
+
+/* line 404, C:/Users/Karl/Documents/PixArt/main.scss */
+n {
+  font-size: 0.7em; }
+
+/* line 406, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_mail {
+  width: 231px;
+  height: 165px;
+  position: absolute;
+  left: 400px; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_mail {
+      width: 20%;
+      left: 40%; } }
+
+/* line 417, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_e {
+  background: url(images/MergedLayers8.png) no-repeat;
+  width: 38px;
+  height: 35px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_e {
+      margin: 0 -20px auto; } }
+
+/* line 427, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_f {
+  background: url(images/Rectangle-5-copy-32.png) no-repeat;
+  width: 99px;
+  height: 99px;
+  margin: 20px auto; }
+
+/* line 436, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_cat {
+  width: 231px;
+  height: 165px;
+  position: absolute;
+  width: auto;
+  left: 80%; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_cat {
+      width: 20%;
+      left: 77%; } }
+
+/* line 450, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_g {
+  background: url(images/MergedLayers0.png) no-repeat;
+  width: 31px;
+  height: 37px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_two_g {
+      margin: 0 -30px auto; } }
+
+/* line 462, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_two_h {
+  background: url(images/Rectangle-10-copy-36.png) no-repeat;
+  width: 89px;
+  height: 99px;
+  margin: 20px auto; }
+
+/* line 469, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three {
+  width: 100%;
+  background: url(images/backgrounds3.png) no-repeat;
+  height: 153px;
+  display: inline-block; }
+
+/* line 477, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_a {
+  background: url(images/Group-21-copy-41.png) no-repeat;
+  width: 53px;
+  height: 67px;
+  position: absolute;
+  left: 40%;
+  top: 45px; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_three_a {
+      width: 20%;
+      left: 10%; } }
+
+/* line 490, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_b {
+  background: url(images/Group-21.png) no-repeat;
+  width: 53px;
+  height: 67px;
+  left: 45%;
+  top: 45px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_three_b {
+      width: 20%;
+      left: 20%; } }
+
+/* line 503, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_need {
+  width: 960px;
+  position: relative; }
+
+/* line 508, C:/Users/Karl/Documents/PixArt/main.scss */
+.ro_three_need {
+  width: 90%;
+  position: relative; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .ro_three_need {
+      width: 95%; } }
+
+/* line 516, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_c {
+  background: url(images/Group-21-copy-26.png) no-repeat;
+  width: 53px;
+  height: 67px;
+  left: 50%;
+  top: 45px;
+  position: absolute; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_three_c {
+      width: 20%;
+      left: 30%; } }
+
+/* line 529, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_d {
+  background: url(images/Group-21-copy-3.png) no-repeat;
+  width: 53px;
+  height: 67px;
+  position: absolute;
+  left: 55%;
+  top: 45px; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_three_d {
+      width: 20%;
+      left: 40%; } }
+
+/* line 542, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_three_text {
+  width: 25%;
+  height: 33px;
+  position: absolute;
+  top: 64px;
+  left: 65%;
+  font-size: 0.8em;
+  color: #fff; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_three_text {
+      width: 40%;
+      left: 55%; } }
+
+/* line 556, C:/Users/Karl/Documents/PixArt/main.scss */
+L {
+  color: #ffffff; }
+
+/* line 560, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four {
+  width: 100%;
+  background: #ffffff;
+  margin-top: -4px;
+  margin-bottom: 53px;
+  display: inline-block;
+  position: relative; }
+
+/* line 569, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_need {
+  display: inline;
+  float: left;
+  width: 33.33333%;
+  margin: 0 0;
+  min-width: 155px; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_need {
+      width: 50%;
+      min-width: 150px;
+      font-size: 0.7em; } }
+  @media only screen and (min-width: 240px) and (max-width: 300px) {
+    .row_four_need {
+      width: 100%; } }
+  /* line 582, C:/Users/Karl/Documents/PixArt/main.scss */
+  .row_four_need span {
+    white-space: pre-line; }
+  /* line 586, C:/Users/Karl/Documents/PixArt/main.scss */
+  .row_four_need b {
+    font-size: 1.16667em;
+    /*14px / 12px*/ }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      .row_four_need b {
+        font-size: 0.8em; } }
+
+/* line 595, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_a {
+  background: url(images/gallaryLacoste.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_a {
+      background: url(images/gallaryLacoste240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 610, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_b {
+  background: url(images/gallaryInveder.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_b {
+      background: url(images/gallaryInveder240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 624, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_c {
+  background: url(images/gallaryLiza.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_c {
+      background: url(images/gallaryLiza240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 638, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_d {
+  background: url(images/gallaryMonroe.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_d {
+      background: url(images/gallaryMonroe240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 652, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_e {
+  background: url(images/gallaryGranate.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_e {
+      background: url(images/gallaryGranate240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 666, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_f {
+  background: url(images/gallaryPhone.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto 1em; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .row_four_f {
+      background: url(images/gallaryPhone240.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto 1em; } }
+
+/* line 681, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_four_colon {
+  width: 951px;
+  margin: 40px auto;
+  line-height: 15px;
+  font-size: 0.75em;
+  /*12px / 16px*/ }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_four_colon {
+      width: 100%;
+      height: 100%;
+      font-size: 0.7em; } }
+
+/* line 694, C:/Users/Karl/Documents/PixArt/main.scss */
+.button_1 {
+  width: 100%;
+  /*960px*/
+  position: relative;
+  display: inherit; }
+
+/* line 701, C:/Users/Karl/Documents/PixArt/main.scss */
+.button_2 {
+  min-width: 100px;
+  width: 12%;
+  /*220px*/
+  height: 31px;
+  background-color: #ff4911;
+  box-shadow: 0 2px #b9360d;
+  border: 0;
+  position: absolute;
+  left: 44%;
+  /*370px*/ }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .button_2 {
+      left: 40%; } }
+  /* line 713, C:/Users/Karl/Documents/PixArt/main.scss */
+  .button_2 a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.875em;
+    /*14px / 16px*/
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+/* line 725, C:/Users/Karl/Documents/PixArt/main.scss */
+.row_five {
+  width: 100%;
+  max-height: 510px;
+  background: url(images/row5background.png) no-repeat center center;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .row_five {
+      background: url(images/row5background980.png);
+      background-position: 50%;
+      background-size: cover;
+      margin: 0 auto; } }
+
+/* line 741, C:/Users/Karl/Documents/PixArt/main.scss */
+.footer {
+  width: 100%;
+  height: 60px;
+  display: inline-block;
+  padding: 2% 0 3% 2%;
+  position: relative; }
+
+/* line 749, C:/Users/Karl/Documents/PixArt/main.scss */
+.footer_need {
+  position: relative;
+  min-width: 960px;
+  display: block; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .footer_need {
+      width: 90%;
+      font-size: 0.4em; } }
+
+/* line 759, C:/Users/Karl/Documents/PixArt/main.scss */
+.rights {
+  font-size: 0.7em;
+  float: left;
+  display: inline-block; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .rights {
+      position: absolute;
+      top: 136%;
+      left: 34%;
+      padding-top: 1%; } }
+
+/* line 772, C:/Users/Karl/Documents/PixArt/main.scss */
+.social {
+  width: 93px;
+  height: 33px;
+  display: inline-block;
+  float: left;
+  margin: -0.6% 0 0 7%; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .social {
+      margin: auto; } }
+
+/* line 783, C:/Users/Karl/Documents/PixArt/main.scss */
+.social_1 {
+  background: url(images/Group-19-copy-2.png);
+  height: 33px;
+  width: 31px;
+  position: relative;
+  display: block;
+  float: left; }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .social_1 {
+      background-position: 50%; } }
+
+/* line 796, C:/Users/Karl/Documents/PixArt/main.scss */
+.social_2 {
+  background: url(images/Group-19-copy-3.png);
+  height: 33px;
+  width: 31px;
+  display: inline-block; }
+
+/* line 803, C:/Users/Karl/Documents/PixArt/main.scss */
+.social_3 {
+  background: url(images/Group-19-copy-4.png);
+  height: 33px;
+  width: 31px;
+  position: absolute;
+  display: inline-block; }
+
+/* line 811, C:/Users/Karl/Documents/PixArt/main.scss */
+.logo_footer {
+  background: url(images/LOGO-3.png);
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  margin: -0.6% auto;
+  width: 90px;
+  height: 25px; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .logo_footer {
+      left: 40%;
+      top: 105%; } }
+
+/* line 827, C:/Users/Karl/Documents/PixArt/main.scss */
+.text_2 {
+  width: 180px;
+  font-size: 0.7em;
+  float: right;
+  display: inline-block;
+  text-align: right; }
+  /* line 833, C:/Users/Karl/Documents/PixArt/main.scss */
+  .text_2 span {
+    float: right;
+    color: #ff4911; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .text_2 {
+      display: block;
+      margin: 0 0 0 70%; } }
+
+/* line 844, C:/Users/Karl/Documents/PixArt/main.scss */
+.text_1 {
+  width: 180px;
+  font-size: 0.7em;
+  float: right;
+  text-align: right;
+  display: inline-block; }
+  /* line 850, C:/Users/Karl/Documents/PixArt/main.scss */
+  .text_1 span {
+    float: right;
+    color: #ff4911; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .text_1 {
+      display: block; } }
+
+/* line 860, C:/Users/Karl/Documents/PixArt/main.scss */
+.boy_and_dog {
+  width: 185px;
+  height: 138px;
+  background: url(images/advtime.png) no-repeat;
+  display: inline-block;
+  position: absolute;
+  left: 295px;
+  background-size: contain; }
+  @media only screen and (min-width: 240px) and (max-width: 979px) {
+    .boy_and_dog {
+      position: static;
+      float: left; } }
+  @media only screen and (min-width: 240px) and (max-width: 480px) {
+    .boy_and_dog {
+      margin-top: 30px;
+      min-width: 132px;
+      width: 31%; } }
+
+/*# sourceMappingURL=main.css.map */
